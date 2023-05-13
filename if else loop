@@ -1,23 +1,18 @@
-// we will be learning about if, else and if else
-
+// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
 
 int main() {
- 
- int a;
- cin>>a;
-  
-  if(a>0) {
-    
-    cout<<"a is an positive integer";   
-  }
+    int a;
+    cout<<"enter an integer"<<endl;
+    cin >>a ;
+    if (a>0){
+        cout<<"a is a +ve integer";
+    }
 
-else {
-    
-    cout<<" a is a negative integer";
-
- }
-return 0;
+       else {
+           
+           cout<<"a is a -ve integer";
+       }
+    return 0;
 }
-
